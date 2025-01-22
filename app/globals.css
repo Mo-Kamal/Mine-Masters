@@ -1,0 +1,75 @@
+:root {
+  --White: #fff;
+  --Whitish: #fef7ff;
+  --Whitish-rgb: 254, 247, 255; /* RGB equivalent of #fef7ff */
+  --Black: #000;
+  --Primary: #5a189a;
+  --Primary-rgb: 90, 24, 154; /* RGB equivalent of #5a189a */
+  --Pastal-Blue: #00caff;
+  --Blue: #015cad;
+  --Light-Blue: #00b4d8;
+  --Orange: #ffc14d;
+  --Purple: #2e0056;
+  --Dark-Purple: #240046;
+  --Dark-Purple-rgb: 36, 0, 70; /* RGB equivalent of #240046 */
+  --Light-Purple: #9d4edd;
+  --Blackish: #10002b;
+  --Blackish-rgb: 16, 0, 43; /* RGB equivalent of #10002b */
+  --Violet: #c77dff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: var(--Secondary-Light);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: var(--Secondary);
+  padding-right: 0 !important;
+  position: relative;
+  min-width: 320px;
+  overflow-x: scroll;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* Hide Arrows From Input Number  */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Hide Arrows From Input Number */
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+#__next {
+  min-height: inherit;
+}
