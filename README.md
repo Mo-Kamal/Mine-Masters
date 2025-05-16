@@ -63,7 +63,7 @@ The project follows a modular and organized structure:
 
 ### Demo
 
-A live preview will be available soon at: https://mine-masters.vercel.app
+A live preview is available at: https://www.mmastersapp.ir/
 
 ### License
 
